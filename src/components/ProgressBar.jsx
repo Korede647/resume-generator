@@ -7,7 +7,7 @@ const ProgressBar = ({step, totalSteps}) => {
       <div
         style={{ width: `${progress}%` }}
         className="bg-blue-600 h-4 rounded-full transition-all "
-      ><p className='mt-4 text-blue-700'>LOL KOREDE MAMA</p></div>
+      ><p className='mt-4 text-purple-700'>{progress}</p></div>
     </div>
   )
 }
